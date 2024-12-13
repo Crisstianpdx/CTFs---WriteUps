@@ -112,7 +112,7 @@ Y comprobamos con el comando `whoami` o `id` que ya somos usuario *root*.
 
 ##
 
-De esta forma hemos resuelto la maquina Upload de DockerLabs.
+De esta forma hemos resuelto la maquina Upload de DockerLabs y tambien he subido mi primer writeup.
 
 
 
