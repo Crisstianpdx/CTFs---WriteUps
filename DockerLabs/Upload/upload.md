@@ -1,4 +1,4 @@
-![image](https://github.com/x4nderht/CTFs/blob/effd1af3fa859eb27c3a2ecb55b427217151c9f0/DockerLabs/Upload/imgs/upload-banner.png)
+![image](https://github.com/Crisstianpdx/CTFs-WriteUps/blob/897599be5b5fc8376144035120706ace760edd10/DockerLabs/Upload/imgs/upload-banner.png)
 
 [Maquina](https://mega.nz/file/pOdwgYbB#8lTyf-mWFNq7xvKWObKUV9gkrZj3nzhuHVlGQmnZ6BQ)   \   [Dockerlabs](https://dockerlabs.es/)
 
