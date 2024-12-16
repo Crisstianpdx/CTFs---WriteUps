@@ -21,7 +21,7 @@ Por otro lado, si revisamos el puerto `80` en el navegador, solo observamos una 
 
 ![image](imgs/file-img3.png)
 
-Hay un comentario que nos habla sobre la existencia de un directorio raro, tal vez el archvio *anon.txt* nos pueda dar otra pista.
+Hay un comentario que nos habla sobre la existencia de un directorio raro, tal vez el archivo *anon.txt* nos pueda dar otra pista.
 
 Bajamos el archivo *anon.txt*.
 
