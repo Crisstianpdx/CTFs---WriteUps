@@ -109,7 +109,7 @@ Viendo la ruta */home/iker/* para posibles vectores de explotacion me encontre c
 
 ![image](imgs/file-img22.png)
 
-Despues de pensar un poco decido intentar reemplazar el script *geo_ip.py* por mi script *geo_ip.py.1* que contendira las instrucciones necesarias para ser *root**.
+Despues de pensar un poco decido intentar reemplazar el script *geo_ip.py* por mi script *geo_ip.py.1* que contendra las instrucciones necesarias para ejecutarme una /bin/bash como **root**.
 
 ![image](imgs/file-img23.png)
 
