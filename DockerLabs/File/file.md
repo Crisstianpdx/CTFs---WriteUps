@@ -59,7 +59,7 @@ Despues de probar de diferentes maneras el subir un archivo malicioso, he lograd
 
 ![image](imgs/file-img11.png)
 
-> Es de mencionar que probablemente la web solo permitia la subida de archivos *.phar* porque tambien intente colar un imagenes y daba error, al igual que tambien con otras extensiones de archivos.
+> Es de mencionar que probablemente la web solo permitia la subida de archivos *.phar* porque tambien intente colar imagenes y daba error, al igual que tambien con otras extensiones de archivos.
 
 Si revisamos el directorio **uploads**, efectivamente, ahi esta nuestro archivo.
 
