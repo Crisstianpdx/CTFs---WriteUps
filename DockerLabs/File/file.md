@@ -80,7 +80,7 @@ Nos ponemos en escucha con `netcat` por el puerto **443** y le pasamos a la vari
 Estamos dentro.
 
 ## Escalada de Privilegios
-Despues de intentar de varias maneras para poder escalar mis privilegios sin nigun tipo de exito, me decidi por usar fuerza bruta para poder ganar acceso como alguno de los usuarios que estaban dentro de la maquina los cuales se encuentran en el `/etc/passwd`.
+Despues de intentar de varias maneras para poder escalar mis privilegios sin nigun exito, me decidi por usar fuerza bruta para poder ganar acceso como alguno de los usuarios que estaban dentro de la maquina los cuales se encuentran en el `/etc/passwd`.
 
 ![image](imgs/file-img16.png)
 
