@@ -17,7 +17,7 @@ Ahora efectuamos un segundo escaneo con `nmap` para reconocer y determinar versi
 
 Podemos ver en los resultados que en el puerto `21`(*ftp*), tenemos acceso como *anonymous* a un archivo *anon.txt*.
 
-Por otro lado, si revisamos el puerto `80` en el navegador, solo observamos una web que viene por defecto en los sitemas, nada interesante, hasta que revisamos el codigo fuente.
+Por otro lado, si revisamos el puerto `80` en el navegador, solo observamos una web que viene por defecto en los sistemas, nada interesante, hasta que revisamos el codigo fuente.
 
 ![image](imgs/file-img3.png)
 
@@ -59,7 +59,7 @@ Despues de probar de diferentes maneras el subir un archivo malicioso, he lograd
 
 ![image](imgs/file-img11.png)
 
-> Es de mencionar que probablemente la web solo permitia la subida de archivos *.phar* porque tambien intente colar imagenes y daba error, al igual que tambien con otras extensiones de archivos.
+> Es de mencionar que probablemente la web solo permitia la subida de archivos *.phar* porque al intentar colar imagenes daba error, al igual que tambien con otras extensiones de archivos.
 
 Si revisamos el directorio **uploads**, efectivamente, ahi esta nuestro archivo.
 
