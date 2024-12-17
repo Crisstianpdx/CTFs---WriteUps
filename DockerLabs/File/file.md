@@ -53,7 +53,7 @@ Podemos intentar subir un archivo malicioso con el cual podremos ejecutar comand
 
 
 ## Explotacion
-Despues de probar de diferentes maneras el subir un archivo malicioso, he logrado colar un archivo *php* bajo la extension de archivo ***.phar***, que es otra extension de archivo referente a un archivo *php*. En este archivo lo que hacemos es crear una variable llamada `cmd` a la cual le podremos pasar como valor algun comando y que este sea ejecutado a nivel de sistema y que, el resultado del comando, nos lo muestre en la web.
+Despues de intentar de varias maneras el subir un archivo malicioso, he logrado colar un archivo *php* bajo la extension de archivo ***.phar***, que es otra extension de archivo referente a un archivo *php*. En este archivo lo que hacemos es crear una variable llamada `cmd` a la cual le podremos pasar como valor algun comando y que este sea ejecutado a nivel de sistema y que, el resultado del comando, nos lo muestre en la web.
 
 ![image](imgs/file-img10.png)
 
