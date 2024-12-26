@@ -91,19 +91,19 @@ Me fui directo a usarla sobre el usuario *mario* y al parecer me encontro la con
 
 ![image](imgs/file-img18.png)
 
-Nos autenticamos como **mario** y vemos con `sudo -l` que comandos podemos ejecutar con altos privilegios sin contraseña.
+Nos autenticamos como **mario** y vemos con `sudo -l` que comandos podemos ejecutar con privilegios sin contraseña.
 
 ![image](imgs/file-img19.png)
 
-Podemos ejecutar el comando `awk` con altos privilegios bajo el usuario *julen* por lo que hay que explotarlo.
+Podemos ejecutar el comando `awk` bajo el usuario *julen* por lo que hay que usarlo.
 
 ![image](imgs/file-img20.png)
 
-Ahora ganamos una shell como el usuario **julen** y si vemos que comandos podemos ejecutar con altos privilegios sin contraseña, obervamos que podemos abusar del comando `env` bajo el usuario *iker* por lo que, tambien lo explotamos.
+Ahora ganamos una shell como el usuario **julen** y si vemos que comandos podemos ejecutar con privilegios, obervamos que podemos usar del comando `env` bajo el usuario *iker* por lo que, tambien lo usamos.
 
 ![image](imgs/file-img21.png)
 
-Al ganar una shell como el usuario *iker*, al cual tambien le revisamos los comandos que puede ejecutar con altos privilegios nos encontramos con que puede ejcutar un script python llamado *geo_ip.py* ubicado en su directorio de usuario(*/home/iker*) por lo que ahora solo nos queda buscar la manera de abusar de este archivo.
+Al ganar una shell como el usuario *iker*, al cual tambien le revisamos los comandos que puede ejecutar con altos privilegios nos encontramos con que puede ejcutar como cualquier usuario un script python llamado *geo_ip.py* ubicado en su directorio de usuario(*/home/iker*) por lo que ahora solo nos queda buscar la manera de abusar y explotar de este archivo.
 
 Viendo la ruta */home/iker/* para posibles vectores de explotacion me encontre con otro directorio llamado *\__pycache__* que contenia un archivo *.pyc* con el que poco se me ocurrio que hacer.
 
