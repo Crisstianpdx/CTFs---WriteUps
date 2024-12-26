@@ -103,7 +103,7 @@ Ahora ganamos una shell como el usuario **julen** y si vemos que comandos podemo
 
 ![image](imgs/file-img21.png)
 
-Al ganar una shell como el usuario *iker*, al cual tambien le revisamos los comandos que puede ejecutar con altos privilegios nos encontramos con que puede ejcutar como cualquier usuario un script python llamado *geo_ip.py* ubicado en su directorio de usuario(*/home/iker*) por lo que ahora solo nos queda buscar la manera de abusar y explotar de este archivo.
+Al ganar una shell como el usuario *iker*, al cual tambien le revisamos los comandos que puede ejecutar con privilegios nos encontramos con que puede ejcutar como cualquier usuario un script python llamado *geo_ip.py* ubicado en su directorio de usuario(*/home/iker*) por lo que ahora solo nos queda abusar de este permiso en ese archivo.
 
 Viendo la ruta */home/iker/* para posibles vectores de explotacion me encontre con otro directorio llamado *\__pycache__* que contenia un archivo *.pyc* con el que poco se me ocurrio que hacer.
 
