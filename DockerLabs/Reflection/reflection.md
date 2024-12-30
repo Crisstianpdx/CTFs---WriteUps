@@ -1,4 +1,4 @@
-l![image](imgs/reflec-banner.png)
+![image](imgs/reflec-banner.png)
 
 >[Maquina](https://mega.nz/file/SAtzAKLL#3ITizYrmaj4-aP1AyjuzHGMoZuSGeiO8lcfIMBOzaqk)   \   [Dockerlabs](https://dockerlabs.es/)
 
