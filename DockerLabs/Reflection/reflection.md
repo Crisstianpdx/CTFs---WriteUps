@@ -58,5 +58,7 @@ Leyendo sus permisos *sudoers* podemos ver que puede ejecutar el comando `cp` co
 ![image](imgs/reflec-img12.png)
 
 Eso es todo, que realista.
+
 Y si, me da wueva hacer los XSS.
+
 Buen dia, tarde o noche.
