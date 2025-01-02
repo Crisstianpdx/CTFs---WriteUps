@@ -33,7 +33,7 @@ Nose ni cual fue la explotacion aqui pero bueno, igual pongo el titulo.
 
 ## Escalada de Privilegios
 
-Si buscamos por binarios con permisos SUID nos econtramos con que el binario `env` posee este permiso por lo que podriamos ejecutarnos una `bash` con altos provilegios pasandole el parametro `-p` al binario `env`.
+Si buscamos por binarios con permisos SUID nos econtramos con que el binario `env` posee este permiso por lo que podriamos ejecutarnos una `bash` con altos privilegios pasandole el parametro `-p` al binario `env`.
 
 ![image](imgs/reflec-img6.png)
 
@@ -58,5 +58,7 @@ Leyendo sus permisos *sudoers* podemos ver que puede ejecutar el comando `cp` co
 ![image](imgs/reflec-img12.png)
 
 Eso es todo, que realista.
+
 Y si, me da wueva hacer los XSS.
+
 Buen dia, tarde o noche.
