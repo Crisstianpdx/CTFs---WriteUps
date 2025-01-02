@@ -30,7 +30,7 @@ Si contemplamos nuestro posible dominio en el */etc/hosts/* se nos muestra una w
 
 ![image](imgs/hz-img6.png)
 
-Es un panel de login que se un poco pusi.
+Es un panel de login que se ve un poco pusi.
 Si efectuamos un poco de fuzzing con `gobuster` logramos ver que tenemos acceso a un index html llamado *dashboard* y otras cosas un tanto interesantes como el directorio *uploads/*.
 
 ![image](imgs/hz-img7.png)
