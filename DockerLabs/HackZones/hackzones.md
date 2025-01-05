@@ -100,12 +100,6 @@ Revisando el */etc/passwd* vemos un usuario de nombre *mrrobot* asi que intentar
 
 Y para dentro.
 
-En nuestro directorio personal nos encontramos con un archivo *user.txt* el cual parece contener un tipo de hash o texto codificado.
-
-![image](imgs/hz-img24.png)
-
-![image](imgs/hz-img25.png)
-
 Revisando los permisos *sudoers* del usuario *mrrobot* nos encontramos con la posibilidad de ejecutar el comando `cat` como cualquier usuario asi que vamos a buscar archivos que puedan contener algo interesante que nos ayuden a escalar nuestros privilegios.
 
 ![image](imgs/hz-img26.png)
