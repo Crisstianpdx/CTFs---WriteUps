@@ -30,7 +30,7 @@ Si contemplamos nuestro posible dominio en el */etc/hosts/* se nos muestra una w
 
 ![image](imgs/hz-img6.png)
 
-Es un panel de login que se un poco pusi.
+Es un panel de login que se ve un poco pusi.
 Si efectuamos un poco de fuzzing con `gobuster` logramos ver que tenemos acceso a un index html llamado *dashboard* y otras cosas un tanto interesantes como el directorio *uploads/*.
 
 ![image](imgs/hz-img7.png)
@@ -99,12 +99,6 @@ Revisando el */etc/passwd* vemos un usuario de nombre *mrrobot* asi que intentar
 ![image](imgs/hz-img23.png)
 
 Y para dentro.
-
-En nuestro directorio personal nos encontramos con un archivo *user.txt* el cual parece contener un tipo de hash o texto codificado.
-
-![image](imgs/hz-img24.png)
-
-![image](imgs/hz-img25.png)
 
 Revisando los permisos *sudoers* del usuario *mrrobot* nos encontramos con la posibilidad de ejecutar el comando `cat` como cualquier usuario asi que vamos a buscar archivos que puedan contener algo interesante que nos ayuden a escalar nuestros privilegios.
 
